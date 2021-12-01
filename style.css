@@ -179,7 +179,7 @@ h3 {
   margin-bottom: 10px;
 }
 
-.content-text {
+.strength-text {
   font-size: 16px;
   color: #000000;
   text-align: left;
@@ -199,4 +199,40 @@ h3 {
 .profile {
   width: 100%;
   background-color: #eceff1;
+  text-align: center;
+}
+
+.profile-detail {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 90px;
+}
+
+.profile-image {
+  width: 512px;
+}
+
+.my-icon {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.profile-content {
+  width: 512px;
+}
+
+.profile-title {
+  font-size: 20px;
+  margin-bottom: 5px;
+  text-align: left;
+  color: #000000;
+}
+
+.profile-text {
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-align: left;
+  color: #000000;
 }
