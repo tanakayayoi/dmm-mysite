@@ -42,13 +42,115 @@ nav {
 }
 
 .main-visual {
+  background-image: url(img/mv.png);
+  background-size: cover;
   width: 100%;
   height: 650px;
+}
+
+.mv-title {
+  font-size: 64px;
+  color: #fafafa;
+  padding-top: 200px;
+  text-align: center;
+}
+
+.mv-text {
+  font-size: 20px;
+  color: #fafafa;
+  padding-top: 10px;
+  text-align: center;
 }
 
 .portfolio {
   width: 100%;
   background-color: #eceff1;
+  color: #000000;
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+  padding-top: 90px;
+  padding-bottom: 8pt;
+}
+
+.line {
+  height: 3px;
+  width: 70px;
+  background-color: #ec715f;
+  margin: 0 auto;
+}
+
+.pf-text {
+  font-size: 16px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.pf-visual {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pf-visual1 {
+  background-image: url(img/sketch.jpg);
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.pf-visual2 {
+  background-image: url(img/websuku.png);
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.pf-visual3 {
+  background-image: url(img/write.jpg);
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+}
+
+.pf-visual4 {
+  background-image: url(img/webcamp.png);
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+  margin-bottom: 90px;
+}
+
+.pf-visual5 {
+  background-image: url(img/talk.jpg);
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+  margin-bottom: 90px;
+}
+
+.pf-visual6 {
+  background-image: url(img/webcamp-mother.png);
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 90px;
 }
 
 .feature {
