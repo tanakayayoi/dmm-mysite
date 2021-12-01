@@ -82,7 +82,7 @@ h2 {
   margin: 0 auto;
 }
 
-.pf-text {
+.text {
   font-size: 16px;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -155,6 +155,45 @@ h2 {
 
 .feature {
   width: 100%;
+  text-align: center;
+}
+
+.strength {
+  display: flex;
+  justify-content: center;
+}
+
+i {
+  font-size: 60px;
+}
+
+.strength1 {
+  width: 320px;
+  margin-right: 10px;
+  margin-bottom: 90px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.content-text {
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+}
+
+.strength2 {
+  width: 320px;
+  margin-right: 10px;
+  margin-bottom: 90px;
+}
+
+.strength3 {
+  width: 320px;
+  margin-bottom: 90px;
 }
 
 .profile {
