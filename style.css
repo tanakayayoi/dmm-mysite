@@ -260,6 +260,7 @@ h3 {
 
 .contact-title {
   font-size: 20px;
+  margin-top: 0;
   margin-bottom: 5px;
   color: #000000;
 }
@@ -295,4 +296,147 @@ footer {
   align-items: center;
   font-size: 16px;
   color: #fafafa;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    width: 90%;
+    height: 50px;
+  }
+
+  .header-aria {
+    width: 90%;
+    height: 50px;
+  }
+
+  img {
+    height: 50px;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  #humberger {
+    position: relative;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    margin: 5px 0 5px auto;
+    background-color: #ec715f;
+    border: 1px solid #fafafa;
+  }
+
+  #humberger div {
+    position: absolute;
+    left: 5px;
+    height: 2px;
+    width: 28px;
+    background-color: #fafafa;
+    border-radius: 2px;
+    display: inline-block;
+  }
+
+  #humberger div:nth-of-type(1) {
+    bottom: 24px;
+  }
+
+  #humberger div:nth-of-type(2) {
+    bottom: 17px;
+  }
+
+  #humberger div:nth-of-type(3) {
+    bottom: 10px;
+  }
+
+  .main-visual {
+    background-image: url(img/code.png);
+    width: 90%;
+    height: 650px;
+  }
+
+  .mv-title {
+    font-size: 40px;
+  }
+
+  .mv-text {
+    font-size: 18px;
+  }
+
+  .portfolio {
+    width: 90%;
+  }
+
+  .text {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .pf-visual1 {
+    background-image: url(img/websuku.png);
+    margin-right: 0;
+  }
+
+  .pf-visual2 {
+    background-image: url(img/webcamp.png);
+    margin-right: 0;
+  }
+
+  .pf-visual3 {
+    background-image: url(img/webcamp-mother.png);
+    margin-bottom: 90px;
+  }
+
+  .pf-visual4,
+  .pf-visual5,
+  .pf-visual6 {
+    display: none;
+  }
+
+  .feature {
+    width: 90%;
+  }
+
+  .strength {
+    flex-wrap: wrap;
+  }
+
+  .profile {
+    width: 90%;
+  }
+
+  .profile-detail {
+    width: 90%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .profile-title {
+    text-align: center;
+  }
+  
+  .profile-text {
+    text-align: center;
+  }
+
+  .contact {
+    width: 90%;
+  }
+
+  .contact-detail {
+    width: 90%;
+    display: block;
+  }
+
+  .contact-content {
+    text-align: center;
+  }
+
+  .SNS i {
+    margin-right: 8px;
+  }
+
+  footer {
+    width: 90%;
+  }
 }
